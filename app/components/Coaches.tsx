@@ -16,11 +16,11 @@ const COACHES: Coach[] = [
     bio: "A decorated bodybuilder turned coach. Mr. Ashfaq has spent over a decade building champions and serious lifters out of Pak Arab Housing Society — including Mr. Lahore titleholders.",
     credentials: [
       "Mr. Pakistan",
-      "South Asian Games · Gold Medalist",
-      "Mr. Universe · Gold Medalist",
+      "South Asian Games Gold · Bhutan",
+      "MM Universe Gold · USA",
       "12+ years coaching",
     ],
-    image: "/ashfaq-personal-trainer-profile.jpg",
+    image: "/gallery/1.jpeg",
     initials: "AB",
   },
   {

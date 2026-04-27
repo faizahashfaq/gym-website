@@ -66,12 +66,11 @@ export default function Transformations() {
 
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
         {/* Top stats banner */}
-        <div className="grid grid-cols-2 gap-px overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-800 md:grid-cols-4">
+        <div className="grid grid-cols-2 gap-px overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-800 md:grid-cols-3">
           {[
             { value: "12+ yrs", label: "Coaching tenure" },
             { value: "10 AM – 5 PM", label: "Female-only hours" },
             { value: "5 PM – 11:30", label: "Co-ed evening" },
-            { value: "Mr. Lahore", label: "Champions trained" },
           ].map((stat) => (
             <div
               key={stat.label}
@@ -152,6 +151,70 @@ export default function Transformations() {
             </li>
           ))}
         </ul>
+
+        {/* Review CTA */}
+        <div className="relative mt-12 overflow-hidden rounded-3xl border border-zinc-800 bg-background p-8 sm:p-12">
+          <div
+            aria-hidden
+            className="pointer-events-none absolute -right-24 -top-24 h-72 w-72 rounded-full bg-red-600/15 blur-3xl"
+          />
+          <div className="relative flex flex-col items-start justify-between gap-6 md:flex-row md:items-center">
+            <div className="max-w-xl">
+              <div className="mb-3 flex items-center gap-1 text-red-500">
+                {Array.from({ length: 5 }).map((_, i) => (
+                  <svg
+                    key={i}
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    aria-hidden
+                    className="h-5 w-5"
+                  >
+                    <path d="M10 1.5l2.6 5.27 5.82.85-4.21 4.1.99 5.78L10 14.77l-5.2 2.73.99-5.78L1.58 7.62l5.82-.85L10 1.5z" />
+                  </svg>
+                ))}
+              </div>
+              <h3 className="font-display text-2xl font-bold uppercase leading-tight tracking-tight text-white sm:text-3xl md:text-4xl">
+                Training with us?
+                <br />
+                <span className="text-red-500">Tell us how it went.</span>
+              </h3>
+              <p className="mt-3 text-sm leading-relaxed text-zinc-400 md:text-base">
+                A two-minute review on Google helps us reach more people who
+                are serious about getting in shape.
+              </p>
+            </div>
+            <a
+              href="https://search.google.com/local/writereview?placeid=ChIJCyn1cgAHGTkRid3S98N7_s0"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group inline-flex shrink-0 items-center gap-2 rounded-full bg-red-600 px-7 py-4 text-sm font-semibold uppercase tracking-[0.18em] text-white transition-all hover:bg-red-500 hover:shadow-[0_0_40px_-5px_rgba(220,38,38,0.6)]"
+            >
+              <svg
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                aria-hidden
+                className="h-4 w-4"
+              >
+                <path d="M10 1.5l2.6 5.27 5.82.85-4.21 4.1.99 5.78L10 14.77l-5.2 2.73.99-5.78L1.58 7.62l5.82-.85L10 1.5z" />
+              </svg>
+              Leave a Google Review
+              <svg
+                className="h-4 w-4 transition-transform group-hover:translate-x-1"
+                viewBox="0 0 20 20"
+                fill="none"
+                aria-hidden
+              >
+                <path
+                  d="M4 10h12m0 0-4-4m4 4-4 4"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
       </div>
     </section>
   );

@@ -88,13 +88,19 @@ export default function Footer() {
             <dl className="mt-5 space-y-3 text-sm text-zinc-400">
               <div>
                 <dt className="text-xs uppercase tracking-[0.18em] text-zinc-500">
+                  Co-ed (morning)
+                </dt>
+                <dd className="mt-1 text-white">6:00 AM – 9:30 AM</dd>
+              </div>
+              <div>
+                <dt className="text-xs uppercase tracking-[0.18em] text-zinc-500">
                   Female only
                 </dt>
                 <dd className="mt-1 text-white">10:00 AM – 5:00 PM</dd>
               </div>
               <div>
                 <dt className="text-xs uppercase tracking-[0.18em] text-zinc-500">
-                  Co-ed
+                  Co-ed (evening)
                 </dt>
                 <dd className="mt-1 text-white">5:00 PM – 11:30 PM</dd>
               </div>
@@ -108,17 +114,34 @@ export default function Footer() {
             </h4>
             <ul className="mt-5 space-y-3 text-sm">
               <li>
+                <p className="text-xs uppercase tracking-[0.18em] text-zinc-500">
+                  Mobile
+                </p>
                 <Link
                   href="tel:+923215815566"
-                  className="text-zinc-400 transition-colors hover:text-white"
+                  className="text-zinc-300 transition-colors hover:text-white"
                 >
                   +92 321 5815566
                 </Link>
               </li>
               <li>
+                <p className="text-xs uppercase tracking-[0.18em] text-zinc-500">
+                  Landline
+                </p>
+                <Link
+                  href="tel:+924235463739"
+                  className="text-zinc-300 transition-colors hover:text-white"
+                >
+                  042-35463739
+                </Link>
+              </li>
+              <li>
+                <p className="text-xs uppercase tracking-[0.18em] text-zinc-500">
+                  Email
+                </p>
                 <Link
                   href="mailto:ashfaqbuttfitnesszone@gmail.com"
-                  className="break-all text-zinc-400 transition-colors hover:text-white"
+                  className="break-all text-zinc-300 transition-colors hover:text-white"
                 >
                   ashfaqbuttfitnesszone@gmail.com
                 </Link>

@@ -53,10 +53,10 @@ export default function Hero() {
                 Ashfaq Butt
               </p>
               <p className="mt-2 text-[11px] uppercase tracking-[0.22em] text-zinc-300">
-                Mr. Pakistan · South Asian Gold Medalist
+                Mr. Pakistan · South Asian Gold (Bhutan)
               </p>
               <p className="mt-1 text-[11px] uppercase tracking-[0.22em] text-red-500">
-                Mr. Universe Gold Medalist
+                MM Universe Gold Medalist · USA
               </p>
             </div>
           </div>
@@ -154,7 +154,7 @@ export default function Hero() {
                 Years coaching
               </dt>
               <dd className="mt-2 font-display text-3xl font-bold text-white">
-                12
+                12+
               </dd>
             </div>
           </dl>

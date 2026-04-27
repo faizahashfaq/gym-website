@@ -99,9 +99,9 @@ const FACILITIES: Facility[] = [
     ),
   },
   {
-    title: "Co-Ed Evening Sessions",
+    title: "Co-Ed Hours",
     description:
-      "5 PM – 11:30 PM open to all members. Peak-energy hours on the floor.",
+      "Open to all members — mornings 6 AM – 9:30 AM and evenings 5 PM – 11:30 PM. Train before work or after.",
     icon: (
       <svg viewBox="0 0 24 24" fill="none" aria-hidden className="h-7 w-7">
         <circle cx="12" cy="12" r="9" stroke="currentColor" strokeWidth="1.6" />
@@ -140,7 +140,7 @@ export default function Facilities() {
           <p className="max-w-md text-base leading-relaxed text-zinc-400">
             A full-service gym in Pak Arab Housing Society — strength, cardio,
             nutrition, and certified coaching, with separate timings for women
-            and a co-ed floor in the evening.
+            and a co-ed floor in morning and evening.
           </p>
         </div>
 
@@ -151,12 +151,6 @@ export default function Facilities() {
               key={facility.title}
               className="group relative bg-background p-8 transition-colors duration-300 hover:bg-zinc-950 lg:p-10"
             >
-              {/* Top-right number/marker */}
-              <span className="absolute right-6 top-6 text-xs font-mono text-zinc-700 transition-colors group-hover:text-red-600">
-                /
-                {String(FACILITIES.indexOf(facility) + 1).padStart(2, "0")}
-              </span>
-
               {/* Icon */}
               <div className="inline-flex h-14 w-14 items-center justify-center rounded-xl border border-zinc-800 bg-zinc-950 text-zinc-300 transition-all duration-300 group-hover:border-red-600 group-hover:bg-red-600/10 group-hover:text-red-500">
                 {facility.icon}

@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Facilities from "./components/Facilities";
 import Coaches from "./components/Coaches";
+import Gallery from "./components/Gallery";
 import Transformations from "./components/Transformations";
 import Footer from "./components/Footer";
 
@@ -13,6 +14,7 @@ export default function Home() {
         <Hero />
         <Facilities />
         <Coaches />
+        <Gallery />
         <Transformations />
       </main>
       <Footer />
