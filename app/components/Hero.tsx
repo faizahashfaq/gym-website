@@ -132,21 +132,13 @@ export default function Hero() {
           </div>
 
           {/* Stat row */}
-          <dl className="mt-14 grid max-w-xl grid-cols-3 gap-6 border-t border-zinc-900 pt-8">
+          <dl className="mt-14 grid max-w-xl grid-cols-2 gap-6 border-t border-zinc-900 pt-8">
             <div>
               <dt className="text-xs uppercase tracking-[0.2em] text-zinc-500">
                 Clients coached
               </dt>
               <dd className="mt-2 font-display text-3xl font-bold text-white">
                 400+
-              </dd>
-            </div>
-            <div>
-              <dt className="text-xs uppercase tracking-[0.2em] text-zinc-500">
-                Avg. intensity
-              </dt>
-              <dd className="mt-2 font-display text-3xl font-bold text-white">
-                92<span className="text-red-600">%</span>
               </dd>
             </div>
             <div>
