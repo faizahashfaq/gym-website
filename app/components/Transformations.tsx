@@ -66,7 +66,7 @@ export default function Transformations() {
 
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
         {/* Top stats banner */}
-        <div className="grid grid-cols-2 gap-px overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-800 md:grid-cols-3">
+        <div className="grid grid-cols-1 gap-px overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-800 md:grid-cols-3">
           {[
             { value: "12+ yrs", label: "Coaching tenure" },
             { value: "10 AM – 5 PM", label: "Female-only hours" },
