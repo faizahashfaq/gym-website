@@ -4,6 +4,7 @@ import Facilities from "./components/Facilities";
 import Coaches from "./components/Coaches";
 import Gallery from "./components/Gallery";
 import Transformations from "./components/Transformations";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
         <Coaches />
         <Gallery />
         <Transformations />
+        <Contact />
       </main>
       <Footer />
     </div>

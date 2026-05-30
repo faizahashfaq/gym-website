@@ -17,7 +17,6 @@ const FITNESS_ZONE_MAP_URL =
   export default function Footer() {
   return (
     <footer
-      id="contact"
       className="relative border-t border-zinc-900 bg-background"
     >
       <div className="mx-auto max-w-7xl px-6 py-20 lg:px-10">
@@ -81,11 +80,12 @@ const FITNESS_ZONE_MAP_URL =
               <br />
               Lahore, Punjab, Pakistan 54000
             </address>
+            <br />
             <iframe
               src={FITNESS_ZONE_MAP_URL}
-              width="100%"
-              height="250"
-              style={{ border: 0 }}
+              width="90%"
+              height="200"
+              style={{ border: 0, filter: "invert(90%) grayscale(1)" }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
@@ -153,10 +153,10 @@ const FITNESS_ZONE_MAP_URL =
                   Email
                 </p>
                 <Link
-                  href="mailto:ashfaqbuttfitnesszone@gmail.com"
+                  href="mailto:info@ashfaqbuttfitnesszone.com"
                   className="break-all text-zinc-300 transition-colors hover:text-white"
                 >
-                  ashfaqbuttfitnesszone@gmail.com
+                  info@ashfaqbuttfitnesszone.com
                 </Link>
               </li>
             </ul>
