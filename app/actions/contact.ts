@@ -2,23 +2,14 @@
 
 import nodemailer from "nodemailer";
 
+import type { ContactState } from "./contact-state";
+
 const SMTP_HOST = process.env.SMTP_HOST ?? "smtpout.secureserver.net";
 const SMTP_PORT = Number(process.env.SMTP_PORT ?? 465);
 const SMTP_SECURE = (process.env.SMTP_SECURE ?? "true") === "true";
 const CONTACT_INBOX =
   process.env.CONTACT_INBOX ?? "info@ashfaqbuttfitnesszone.com";
 const CONTACT_FROM = process.env.CONTACT_FROM ?? CONTACT_INBOX;
-
-export type ContactState = {
-  status: "idle" | "success" | "error";
-  message: string;
-  fieldErrors?: Partial<Record<"name" | "email" | "phone" | "message", string>>;
-};
-
-export const initialContactState: ContactState = {
-  status: "idle",
-  message: "",
-};
 
 function escapeHtml(value: string) {
   return value

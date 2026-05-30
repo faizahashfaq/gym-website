@@ -2,10 +2,8 @@
 
 import { useActionState, useEffect, useRef } from "react";
 import { useFormStatus } from "react-dom";
-import {
-  initialContactState,
-  sendContactInquiry,
-} from "../actions/contact";
+import { sendContactInquiry } from "../actions/contact";
+import { initialContactState } from "../actions/contact-state";
 
 function SubmitButton() {
   const { pending } = useFormStatus();
