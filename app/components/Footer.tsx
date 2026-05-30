@@ -84,7 +84,7 @@ const FITNESS_ZONE_MAP_URL =
             <iframe
               src={FITNESS_ZONE_MAP_URL}
               width="100%"
-              height="450"
+              height="250"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
