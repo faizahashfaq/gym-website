@@ -78,6 +78,7 @@ export default function Footer() {
               <br />
               Lahore, Punjab, Pakistan 54000
             </address>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.3205492579914!2d74.3538189!3d31.432841099999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919070072f5290b%3A0xcdfe7bc3f7d2dd89!2sAshfaq%20Butt%20Fitness%20Zone!5e0!3m2!1sen!2s!4v1780147881554!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
 
           {/* Hours */}
